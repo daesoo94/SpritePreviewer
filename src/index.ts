@@ -11,7 +11,7 @@ import { store } from './store'
 
 // router 설정
 var routes = [
-  { path: 'SpritePreviewer/', componennt: SpritePreviewPage }
+  { path: '/SpritePreviewer', componennt: SpritePreviewPage }
   // { path: '/BTC', component: DetailBTC }
 ];
 
