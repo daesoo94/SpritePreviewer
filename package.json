@@ -1,0 +1,43 @@
+{
+  "name": "sprite-previewer",
+  "version": "1.0.0",
+  "description": "sprite previewer",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack",
+    "dev": "webpack-dev-server --hot --inline"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/daesoo94/SpritePreviewer.git"
+  },
+  "author": "Sim Dae-Soo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/daesoo94/SpritePreviewer/issues"
+  },
+  "dependencies": {
+    "css-loader": "^1.0.0",
+    "ts-loader": "^5.2.1",
+    "typescript": "^3.1.1",
+    "vue": "^2.5.17",
+    "vue-class-component": "^6.2.0",
+    "vue-loader": "^15.4.2",
+    "vue-property-decorator": "^7.2.0",
+    "vue-template-compiler": "^2.5.17",
+    "webpack": "^4.20.2",
+    "webpack-cli": "^3.1.2",
+    "webpack-dev-server": "^3.1.9",
+    "axios": "^0.18.0",
+    "es6-promise": "^4.2.5",
+    "file-loader": "^2.0.0",
+    "url-loader": "^1.1.1",
+    "vue-router": "^3.0.1",
+    "vue-style-loader": "^4.1.2",
+    "vuex": "^3.0.1"
+  },
+  "devDependencies": {
+    "webpack-dev-server": "^3.1.14"
+  },
+  "homepage": "https://github.com/daesoo94/SpritePreviewer#readme"
+}
