@@ -1,7 +1,7 @@
 <template>
-  <div class="App">
-    <router-link to="/">go</router-link>
-    <router-view></router-view>
+  <div class="SpritePreviewPage">
+    hellohello
+    <canvas></canvas>
   </div>
 </template>
 
@@ -9,7 +9,7 @@
 import { Component, Vue, Watch } from 'vue-property-decorator';
 
 @Component({})
-export default class App extends Vue {
+export default class SpritePreviewPage extends Vue {
   created() {
     // ..
   }
@@ -21,9 +21,8 @@ export default class App extends Vue {
 </script>
 
 <style scoped>
-.App {
-  width: 100%;
+canvas {
+  width: 90%;
   height: 100%;
-  background-color: #aaaaaa;
 }
 </style>
