@@ -2,7 +2,7 @@ import Vue from 'vue'
 import App from './App.vue'
 import VueRouter from 'vue-router'
 
-import SpritePreviewPage from './components/SpritePreviewPage.vue';
+import SpritePreviewPage from './views/SpritePreviewPage.vue';
 
 Vue.use(VueRouter);
 

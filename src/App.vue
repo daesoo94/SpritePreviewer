@@ -1,6 +1,6 @@
 <template>
   <div class="App">
-    <router-link to="/">go</router-link>
+    <router-link to="./">go</router-link>
     <router-view></router-view>
   </div>
 </template>
